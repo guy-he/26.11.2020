@@ -1,0 +1,31 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("hello world");
+        int min_value = -1;
+                int max_value = +100;
+
+//  String firstName = "Guy";
+ // String lastName = " Hershkovitz";
+     //   System.out.print(firstName);
+      //  System.out.print( lastName);
+
+       String id = "308499721";
+        String full_name = "Guy Hershkovitz";
+        String adress = "tapuz 3 pardes hana";
+        String details ="details:" + id +" "+ full_name+ " " + adress;
+        System.out.println(details);
+
+        System.out.println("enter your name");
+Scanner fname = new Scanner(System.in);
+String fullname = fname.nextLine();
+
+        System.out.println(fullname);
+        System.out.println("enter last name");
+        Scanner lname = new Scanner(System.in);
+        String lastname = lname.nextLine();
+        System.out.println(lastname);
